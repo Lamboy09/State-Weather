@@ -10,7 +10,7 @@ def weather(state):
 	print("City:",Weather.json()['name'])
 	print("Description:",Weather.json()['weather'][0]['description'])
 	print("Humidty:", Weather.json()['main']['humidity'])
-	print("---" * 43)
+	print("--" * 50)
 
 weather(state)
 
